@@ -1,11 +1,10 @@
-import Link from "next/link";
+import Navbar from "../components/Navbar";
+import '../scss/styles.scss';
 
 const Index = () => (
   <section>
-    <h1>Bonjour - Hey, I'm Aisha</h1>
-    <Link href="/about">
-      <a title="About me">About me</a>
-    </Link>
+      <Navbar/>
+    <h1>Bonjour, Hey! I'm Aisha</h1>
   </section>
 );
 
