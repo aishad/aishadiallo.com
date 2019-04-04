@@ -1,1 +1,9 @@
-$green: green;
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}
+$colors: (
+  lightgreen: #56e39c,
+  darkgreen: #035a57,
+  lightcoral: #fe8690,
+  darkcoral: #a2556b
+);
